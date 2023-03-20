@@ -1,73 +1,90 @@
-# Project Name
+### Math Magician
 
-Math Magician
+# 📗 Table of Contents
 
-# Description the project.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-This project is built with React Js.
+## About the Project
 
-It is about a SPA with calculator to practice React.
+> This project is built with React.js, it is about SPA with calculator to practice React.
 
 ## Built With
 
-- React Js
-- Jest testing
-- following github flows standards.
+- React.js
+- Jest
+- Gitflow
 
-### Setup
+### Key Features
 
-to use the project To do list please follow :
+- It will be updated
 
-> Open GitHub and go to my GitHub repository name: Math_Magicians_Reactto clone.
-> Click “Code” and copy the given URL.
-> click code and copy the URL.
+## Live Demo
 
-> click code and copy the URL.
+Live demo will be available soon
 
-> Open “Git Bash” and change the current working directory to the location where you want the cloned directory.
+<!-- - Live: [Check it here]() -->
 
-> Type git clone in the terminal, paste the URL you copied earlier, and press “enter” to create your local clone.
+## Getting Started
 
-> Syntax:
+Clone this repository to your desired folder:
 
-$ git clone {repository URL}
+```sh
+  cd your-prefer-folder
+  git clone https://github.com/enis-memic/Math-Magician
+```
 
-### Usage
+### Run this command to run server
 
-> open your directory math-magician/
+> npm start
 
-\_use vs-code or any IDE to view line code .
+### Run this command to run tests
 
----
+> npm run test
 
-$ npm start to run the local server
-
----
-
-## Click here for live version
-
-- live demo: [coming soon]()
-
-## Authors
+## 👥 Authors <a name="authors"></a>
 
 👤 **Enis Memic**
 
 - GitHub: [@enis-memic](https://github.com/enis-memic)
 - LinkedIn: [enis-memic](https://linkedin.com/in/enis-memic)
 
-## 🤝 Contributing
+## 🔭 Future Features
+
+- 3 sub-pages
+- Design of the page
+- Calculator
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-thanks:
+
+Feel free to check the [issues page](https://github.com/enis-memic/Math-Magicians/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
-- Microverse
+I would like to thank Microverse!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
