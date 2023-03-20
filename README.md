@@ -39,8 +39,6 @@
 
 Live demo will be available soon
 
-<!-- - Live: [Check it here]() -->
-
 ## Getting Started
 
 Clone this repository to your desired folder:
