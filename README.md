@@ -33,7 +33,8 @@
 
 ### Key Features
 
-- It will be updated
+- Design of the page
+- Calculator desgin
 
 ## Live Demo
 
@@ -52,6 +53,10 @@ Clone this repository to your desired folder:
 
 > npm start
 
+### Run this command build server
+
+> npm run build
+
 ### Run this command to run tests
 
 > npm run test
@@ -66,8 +71,7 @@ Clone this repository to your desired folder:
 ## 🔭 Future Features
 
 - 3 sub-pages
-- Design of the page
-- Calculator
+- Calculator functionality
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -85,4 +89,4 @@ I would like to thank Microverse!
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
