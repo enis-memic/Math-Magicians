@@ -33,7 +33,8 @@
 
 ### Key Features
 
-- It will be updated
+- Design of the page
+- Calculator desgin
 
 ## Live Demo
 
@@ -66,8 +67,7 @@ Clone this repository to your desired folder:
 ## 🔭 Future Features
 
 - 3 sub-pages
-- Design of the page
-- Calculator
+- Calculator functionality
 
 ## 🤝 Contributing <a name="contributing"></a>
 
