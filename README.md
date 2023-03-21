@@ -53,6 +53,10 @@ Clone this repository to your desired folder:
 
 > npm start
 
+### Run this command build server
+
+> npm run build
+
 ### Run this command to run tests
 
 > npm run test
