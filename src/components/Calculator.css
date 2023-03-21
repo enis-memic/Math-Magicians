@@ -13,7 +13,7 @@
 
 .calculator {
   margin: 100px;
-  width: 45%;
+  min-width: 400px;
 }
 
 .screen input {
