@@ -35,6 +35,7 @@
 
 - Design of the page
 - Calculator desgin
+- Calculator functionality
 
 ## Live Demo
 
@@ -71,7 +72,7 @@ Clone this repository to your desired folder:
 ## 🔭 Future Features
 
 - 3 sub-pages
-- Calculator functionality
+- Fetch API
 
 ## 🤝 Contributing <a name="contributing"></a>
 
