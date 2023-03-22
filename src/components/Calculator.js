@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Calculator.css';
 import calculate from '../logic/calculate';
+import Button from './Button';
 
 const Calculator = () => {
   const [state, setState] = useState({
@@ -18,63 +19,33 @@ const Calculator = () => {
       <div className="calculator">
         <div className="screen">{state.next || state.total || '0'}</div>
         <div className="row first-row">
-          <input value="AC" type="button" onClick={() => calcClick('AC')} />
-          <input value="+/-" type="button" onClick={() => calcClick('+/-')} />
-          <input value="%" type="button" onClick={() => calcClick('%')} />
-          <input
-            value="÷"
-            type="button"
-            className="color"
-            onClick={() => calcClick('÷')}
-          />
+          <Button value="AC" className="btn-reg" calcClick={calcClick} />
+          <Button value="+/-" className="btn-reg" calcClick={calcClick} />
+          <Button value="%" className="btn-reg" calcClick={calcClick} />
+          <Button value="÷" className="btn-reg color" calcClick={calcClick} />
         </div>
         <div className="row second-row">
-          <input value="7" type="button" onClick={() => calcClick('7')} />
-          <input value="8" type="button" onClick={() => calcClick('8')} />
-          <input value="9" type="button" onClick={() => calcClick('9')} />
-          <input
-            value="x"
-            type="button"
-            className="color"
-            onClick={() => calcClick('x')}
-          />
+          <Button value="7" className="btn-reg" calcClick={calcClick} />
+          <Button value="8" className="btn-reg" calcClick={calcClick} />
+          <Button value="9" className="btn-reg" calcClick={calcClick} />
+          <Button value="x" className="btn-reg color" calcClick={calcClick} />
         </div>
         <div className="row third-row">
-          <input value="4" type="button" onClick={() => calcClick('4')} />
-          <input value="5" type="button" onClick={() => calcClick('5')} />
-          <input value="6" type="button" onClick={() => calcClick('6')} />
-          <input
-            value="-"
-            type="button"
-            className="color"
-            onClick={() => calcClick('-')}
-          />
+          <Button value="4" className="btn-reg" calcClick={calcClick} />
+          <Button value="5" className="btn-reg" calcClick={calcClick} />
+          <Button value="6" className="btn-reg" calcClick={calcClick} />
+          <Button value="-" className="btn-reg color" calcClick={calcClick} />
         </div>
         <div className="row fourth-row">
-          <input value="1" type="button" onClick={() => calcClick('1')} />
-          <input value="2" type="button" onClick={() => calcClick('2')} />
-          <input value="3" type="button" onClick={() => calcClick('3')} />
-          <input
-            value="+"
-            type="button"
-            className="color"
-            onClick={() => calcClick('+')}
-          />
+          <Button value="1" className="btn-reg" calcClick={calcClick} />
+          <Button value="2" className="btn-reg" calcClick={calcClick} />
+          <Button value="3" className="btn-reg" calcClick={calcClick} />
+          <Button value="+" className="btn-reg color" calcClick={calcClick} />
         </div>
         <div className="row fifth-row">
-          <input
-            value="0"
-            type="button"
-            className="expand"
-            onClick={() => calcClick('0')}
-          />
-          <input value="." type="button" onClick={() => calcClick('.')} />
-          <input
-            value="="
-            type="button"
-            className="color"
-            onClick={() => calcClick('=')}
-          />
+          <Button value="0" className="btn-reg expand" calcClick={calcClick} />
+          <Button value="." className="btn-reg" calcClick={calcClick} />
+          <Button value="=" className="btn-reg color" calcClick={calcClick} />
         </div>
       </div>
     </div>

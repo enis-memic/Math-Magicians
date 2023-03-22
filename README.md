@@ -37,9 +37,9 @@
 - Calculator desgin
 - Calculator functionality
 
-## Live Demo
+<!-- ## Live Demo
 
-Live demo will be available soon
+Live demo will be available soon -->
 
 ## Getting Started
 
