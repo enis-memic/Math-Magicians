@@ -1,20 +1,22 @@
-const { useState, useEffect } = require('react');
+import React, { useState, useEffect } from 'react';
+import './Quotes.css';
 
 const Quote = () => {
-  const [quote, setQuote] = useState('');
-  const [author, setAuthor] = useState('');
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState('');
+  //   const [quote, setQuote] = useState('');
+  //   const [author, setAuthor] = useState('');
+  const [post, setPost] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     setLoading(true);
-    fetch('https://api.api-ninjas.com/v1/quotes?category=education', {
+    fetch('https://api.api-ninjas.com/v1/quotes?category=learning', {
       headers: { 'X-Api-Key': 'iKNK7Xbs47dymQExJ6KWaQ==1WtvRayZcMIMkK2x' },
     })
       .then((response) => response.json())
       .then((data) => {
-        setQuote(data[0].quote);
-        setAuthor(data[0].author);
+        const body = `${data[0].quote} -  by ${data[0].author}`;
+        setPost(body);
         setLoading(false);
       })
       .catch(() => {
@@ -25,16 +27,11 @@ const Quote = () => {
 
   return (
     <div className="quote-container">
-      {loading && <p>loading...</p>}
+      {loading && <p>Loading...</p>}
       {error && <p>{error}</p>}
       {!loading && !error && (
         <div>
-          <p>
-            &ldquo;
-            {quote}
-            &ldquo;
-          </p>
-          <p>{author}</p>
+          <p>{post}</p>
         </div>
       )}
     </div>
