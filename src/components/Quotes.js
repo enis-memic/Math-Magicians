@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './Quotes.css';
 
 const Quote = () => {
-  //   const [quote, setQuote] = useState('');
-  //   const [author, setAuthor] = useState('');
   const [post, setPost] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
