@@ -7,12 +7,14 @@
 
 .main {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+
+  /* align-items: center; */
 }
 
 .calculator {
   margin: 100px;
+  width: 40rem;
   min-width: 400px;
 }
 
@@ -71,4 +73,8 @@ button:active {
 
 .expand {
   grid-column: 1 / span 2;
+}
+
+h2 {
+  font-size: 44px;
 }
