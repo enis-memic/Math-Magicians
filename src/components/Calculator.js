@@ -16,6 +16,7 @@ const Calculator = () => {
 
   return (
     <div className="main">
+      <h2>Let`s do some math!</h2>
       <div className="calculator">
         <div className="screen">{state.next || state.total || '0'}</div>
         <div className="row first-row">
