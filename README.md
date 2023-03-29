@@ -39,6 +39,7 @@
 - Fetch API
 - Quote generator
 - 3 sub-pages
+- Testing
 
 <!-- ## Live Demo
 
@@ -74,7 +75,7 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features
 
-- Testing
+- UI improvements
 
 ## 🤝 Contributing <a name="contributing"></a>
 

@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering 3 1`] = `
+<div
+  className="main"
+>
+  <h2>
+    Let\`s do some math!
+  </h2>
+  <div
+    className="calculator"
+  >
+    <div
+      className="screen"
+    >
+      0
+    </div>
+    <div
+      className="row first-row"
+    >
+      <button
+        className="btn-reg"
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        className="btn-reg"
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        className="btn-reg"
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+      <button
+        className="btn-reg color"
+        onClick={[Function]}
+        type="button"
+      >
+        ÷
+      </button>
+    </div>
+    <div
+      className="row second-row"
+    >
+      <button
+        className="btn-reg"
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+      <button
+        className="btn-reg"
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+      <button
+        className="btn-reg"
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+      <button
+        className="btn-reg color"
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+    </div>
+    <div
+      className="row third-row"
+    >
+      <button
+        className="btn-reg"
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+      <button
+        className="btn-reg"
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+      <button
+        className="btn-reg"
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+      <button
+        className="btn-reg color"
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+    </div>
+    <div
+      className="row fourth-row"
+    >
+      <button
+        className="btn-reg"
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        className="btn-reg"
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        className="btn-reg"
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="btn-reg color"
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+    </div>
+    <div
+      className="row fifth-row"
+    >
+      <button
+        className="btn-reg expand"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        className="btn-reg"
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+      <button
+        className="btn-reg color"
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;
