@@ -1,4 +1,5 @@
 import operate from './operate';
+
 it('Addition of 2 numbers', () => {
   expect(operate(5, 5, '+')).toBe('10');
 });
