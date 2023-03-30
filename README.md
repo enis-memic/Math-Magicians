@@ -41,9 +41,9 @@
 - 3 sub-pages
 - Testing
 
-<!-- ## Live Demo
+## Live Demo
 
-Live demo will be available soon -->
+[Live demo](https://math-magician-enis.onrender.com)
 
 ## Getting Started
 
